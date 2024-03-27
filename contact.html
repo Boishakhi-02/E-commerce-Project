@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-commerce project </title>
+    <meta name="description" content="This is an E-commerce Project.">
+    <link rel="stylesheet" href="E-commerce-style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+<body>
+    <!-- navbar starts here -->
+    <i class="fa-solid fa-bars" id="menu-icon"></i>
+    <nav id="menu" class="hidden">
+        <ul class="nav-upper flex">
+            <li class="nav-list"><a href="E-Commerce-Project.html" class="nav-link">Home</a></li>
+            <li class="nav-list"><a href="register.html" class="nav-link">Register</a></li>
+            <li class="nav-list"><a href="login.html" class="nav-link">Login</a></li>
+            <li class="nav-list"><a href="E-Commerce-Project.html" class="nav-link">Logout</a></li>
+            <li class="nav-list"><a href="contact.html" class="nav-link">Contact</a></li>
+            <li class="nav-list"><a href="profile.html" class="nav-link"><img class="profile-icon" src="E-commerce-Project-image/images.jpeg" alt="profile icon"></a></li>
+        </ul>
+        <ul class="nav-lower flex">
+            <li class="nav-list"><a href="E-Commerce-Project.html" class="nav-brand nav-link">Boishakhi Express</a></li>
+            <li class="nav-list"><a href="cart.html" class="nav-link"><span><i class="fa-solid fa-cart-shopping"></i></span>
+            Cart 2 Products -$120.5
+            </a></li>
+        </ul>
+    </nav>
+    <!-- navbar ends here  -->
+    <main>
+        <section class="contact-section">
+            <h2 class="section-title flex-center">Contact us</h2>
+             <div class="contact-container flex-center">
+                <form action="" class="form card">
+                    <div class="form-control flex-center">
+                        <label for="name">Name:</label>
+                        <input type="text" id="name" required autocomplete="name">
+                    </div>
+                    <div class="form-control flex-center">
+                        <label for="email">Email:</label>
+                        <input type="email" id="email" required autocomplete="email">
+                    </div>
+                    <div class="form-control flex-center">
+                        <label for="massage">Massage:</label>
+                        <textarea name="massage" id="massage">
+                        </textarea>
+                    </div>
+                        <div class="form-control flex-center form-btn-field">
+                        <button type="submit" class="btn contact-btn">Submit</button>
+                    </div>
+                </form>
+                <div class="contact-address flex">
+                    <address>
+                        <h4>Address:</h4>
+                        <p>M.R. Road</p>
+                        <p>Magura,Bangladesh</p>
+                        <br>
+                        <span>Call:</span>
+                        <a href="tel:+8801324567890">+8801324567890</a>
+                    </address>
+                    <iframe class="contact-map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3746527.452679472!2d90.3443647!3d23.506657!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x30adaaed80e18ba7%3A0xf2d28e0c4e1fc6b!2sBangladesh!5e0!3m2!1sen!2sbd!4v1710664747182!5m2!1sen!2sbd" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+            </div>
+        </section>
+    </main>
+<!-- Footer Section starts here-->
+<footer class="flex">
+    <div class="flex">
+        <label for="subscribe">Subscribe to Newsletter: </label>
+        <input type="email" id="subscribe" class="subscribe-here" placeholder="Your E-mail Address">
+        <button class="btn btn-subscribe">Subscribe</button>
+    </div>
+    <div>&copy;Copyright 2024 Boishakhi Express.All rights reserved.</div>
+</footer>
+<!-- Footer Section ends here-->
+<script src="JavaScript for E-commerce Project/E-commerce-Project.js"></script>
+
+</body>
+</html>
